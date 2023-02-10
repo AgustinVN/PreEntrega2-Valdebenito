@@ -1,0 +1,129 @@
+body {
+    background-image: url(imagenes/Esquel.cartel.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    background-color: #333;
+}
+h2 {
+    text-align: center;
+    background-color: #333;
+}
+h3 {
+    text-align: center;
+    background-color: #333;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+li {
+    text-align: center;
+    margin: 15px 20px 25px 30px;
+    background-color: #333;
+    list-style: none;
+}
+#Turismo {
+    display: block;
+    margin: auto;
+    height: 250px;
+    width: 250px;
+}
+nav {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#Menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#Menu > li > a {
+    display: block;
+    padding: 15px 20px; 
+    color: white;
+    text-decoration: none;
+}
+#Menu > li:hover {
+    background-color: rgb(121, 207, 236);
+}
+#Submenu {
+    background-color: #333;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: (0, 0, 0, .5);
+}
+#Menu li:hover #Submenu {
+    display: block;
+}
+#Submenu li:hover {
+    background-color: black;
+}
+#Submenu li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+section {
+    margin: 10px;
+    border: 10px;
+    padding: 25px;
+}
+.flex-container {
+    border: 1px solid black;
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+.caja1 {
+    border: 1px solid #333;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+.caja2 {
+    border: 1px solid #333;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+.caja3 {
+    border: 1px solid #333;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
