@@ -4,10 +4,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: rgb(255, 255, 255);
+    font-size: x-large;
 }
     #TituloHistoria {
     text-align: center;
-    background-color: greenyellow;
+    background-color: #333;
 }
 #Historia {
     text-align: center;
