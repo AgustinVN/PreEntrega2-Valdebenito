@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: rgb(255, 255, 255);
+    font-size: x-large;
 }
-
 h1 {
     text-align: center;
     background-color: #333;
@@ -18,11 +18,23 @@ h3 {
     text-align: center;
     background-color: #333;
 }
-img {
+.Imagen {
     display: block;
     margin: auto;
-    width: 100px;
-    height: 100px;
+    width: 700px;
+    height: 500px;
+}
+.Agencias {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+}
+.Restaurantes {
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 500px;
 }
 li {
     text-align: center;
@@ -90,40 +102,4 @@ section {
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
-}
-.caja1 {
-    border: 1px solid #333;
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    text-align: center;
-    margin: 5px;
-}
-.caja2 {
-    border: 1px solid #333;
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    text-align: center;
-    margin: 5px;
-}
-.caja3 {
-    border: 1px solid #333;
-    background-color: white;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    width: 120px;
-    height: 120px;
-    line-height: 120px;
-    text-align: center;
-    margin: 5px;
 }
